@@ -8,5 +8,6 @@ public class Main {
         int wageWithoutExtra = employee.calculateWage();
         System.out.println(wage);
         System.out.println(wageWithoutExtra);
+        Employee.printNumOfEmployees();
     }
 }
